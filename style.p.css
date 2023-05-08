@@ -1,0 +1,20 @@
+/*베껴옴1t*/
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+/*베껴옴2*/
+.wrapper{width: 400px; margin: 0 auto;}
+.clearfix{content: ''; display: block; clear: both;}
+
+/*베껴옴3*/
+header{height: 75px; background-color: #444444; border: 1px solid #253342; position: fixed; width: 100%; z-index:9999; top:0; left: 0; }
+h1{line-height:75px; float: left;}
+.menu{float:right;}
+.menu li{float:left;}
+.menu a{line-height: 75px; color: white; padding: 0 15px; display: block;}
+
+/*내가함*/
+p{text-align:left; margin-left:75px; font-weight: 400; font-size:20px; text-align: start;}
+a:link{color:white;}
+a:visited{color:white;}
